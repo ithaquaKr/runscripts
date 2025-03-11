@@ -1,0 +1,34 @@
+# Ignore editor backups and swap files
+*~
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore compiled binaries
+*.out
+*.o
+*.a
+*.so
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore environment-specific files
+*.env
+
+# Ignore any other temporary files or folders you don't want to commit
+temp/
+.cache/
+
+# Ignore the virtual environment if using one
+venv/
+
+# Ignore any secret keys or sensitive information (use a proper management tool)
+*.key
+*.pem
