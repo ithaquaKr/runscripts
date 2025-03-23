@@ -6,7 +6,7 @@ UNSEAL_KEYS=()
 # Get the unseal keys from the user
 for ((i = 1; i <= 3; i++)); do
   echo "Enter unseal key $i:"
-  read -s key
+  read -rs key
   UNSEAL_KEYS+=("$key")
 done
 
